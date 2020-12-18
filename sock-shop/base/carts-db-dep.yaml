@@ -15,6 +15,7 @@ spec:
       labels:
         name: carts-db
     spec:
+      serviceAccountName: controlplane
       containers:
       - name: carts-db
         image: mongo
